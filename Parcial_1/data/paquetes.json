@@ -1,0 +1,20 @@
+[
+    {
+        "titulo": "Escapada Mística: Ruinas y Yerba Mate",
+        "precio": 45000,
+        "duracionDias": 5,
+        "rutas": [
+            "yerba-mate",
+            "jesuitas"
+        ]
+    },
+    {
+        "titulo": "Contrastes del Norte: Calchaquíes e Independencia",
+        "precio": 60000,
+        "duracionDias": 10,
+        "rutas": [
+            "calchaquies",
+            "independencia"
+        ]
+    }
+]

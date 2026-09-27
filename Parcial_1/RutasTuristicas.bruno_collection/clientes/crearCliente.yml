@@ -1,0 +1,25 @@
+info:
+  name: crearCliente
+  type: http
+  seq: 1
+
+http:
+  method: POST
+  url: http://localhost:3333/api/clientes
+  body:
+    type: json
+    data: |-
+      {
+              "nombre": "Juan",
+              "apellido": "Perez",
+              "email": "juan.perez@example.com",
+              "foto": "https://picsum.photos/seed/juan-perez/200/200",
+              "descripcion": "Cliente frecuente"
+          }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

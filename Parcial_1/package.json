@@ -1,0 +1,19 @@
+{
+  "name": "Rutas Turísticas",
+  "version": "0.0.1",
+  "description": "Gestioná tus rutas turísticas",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "type": "module",
+  "author": "ana.rivera@davinci.edu.ar",
+  "devDependencies": {
+    "nodemon": "3.1.14"
+  },
+  "dependencies": {
+    "dotenv": "18.0.0",
+    "express": "5.2.1",
+    "mongodb": "7.6.0"
+  }
+}

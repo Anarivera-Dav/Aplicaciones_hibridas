@@ -1,0 +1,15 @@
+info:
+  name: obtenerRutasDePaquete
+  type: http
+  seq: 1
+
+http:
+  method: GET
+  url: http://localhost:3333/api/clientes/6ab7e44f5bbc03e91a3be284/paquetes/6ab942e09ed82fc7e42b44c6/rutas
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

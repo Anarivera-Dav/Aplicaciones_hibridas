@@ -1,0 +1,42 @@
+[
+    {
+        "Categoría": "Ruinas y Estancias Jesuíticas",
+        "Etiqueta": "Jesuitas",
+        "Descripción": "Recorrido histórico por el patrimonio UNESCO y la arquitectura colonial.",
+        "Provincias": "Córdoba, Argentina",
+        "Slug": "jesuitas",
+        "DescripciónLarga": "Un itinerario cultural único que conecta el legado arquitectónico y espiritual dejado por la Compañía de Jesús. Este recorrido entrelaza monumentos históricos, antiguas estancias agrícolas y vestigios de la época colonial, revelando el singular sistema socioeconómico, educativo y productivo que moldeó la identidad de la región durante los siglos XVII y XVIII."
+    },
+    {
+        "Categoría": "Ruta de la Yerba Mate",
+        "Etiqueta": "Yerba Mate",
+        "Descripción": "Agroturismo, biodiversidad y cultura guaraní en la selva misionera.",
+        "Provincias": "Misiones y Corrientes",
+        "Slug": "yerba-mate",
+        "DescripciónLarga": "Una travesía sensorial que se adentra en el corazón de la selva paranaense y las tierras rojas. Esta ruta celebra la cultura del \"oro verde\", conectando antiguas misiones, plantaciones históricas y procesos artesanales. Un viaje para descubrir los secretos de la infusión nacional, sus raíces guaraníes y las tradiciones vivas que unen a comunidades enteras alrededor del mate."
+    },
+    {
+        "Categoría": "Ruta Calchaquí",
+        "Etiqueta": "Calchaquíes",
+        "Descripción": "Paisajes precolombinos, poblados ancestrales y enoturismo.",
+        "Provincias": "Salta, Catamarca y Tucumán",
+        "Slug": "calchaquies",
+        "DescripciónLarga": "Un recorrido milenario que atraviesa quebradas desérticas, valles fértiles, poblados ancestrales e historias del pueblo Diaguita Calchaquí. Conecta impactantes paisajes naturales con monumentos históricos, viñedos de altura y una profunda identidad cultural."
+    },
+    {
+        "Categoría": "Ruta de la Independencia",
+        "Etiqueta": "Independencia",
+        "Descripción": "Recorrido por los sitios históricos relacionados con la independencia argentina.",
+        "Provincias": "Mendoza, Tucumán, Salta, etc",
+        "Slug": "independencia",
+        "DescripciónLarga": "Un trayecto cargado de memoria e historia patria que recorre los escenarios decisivos de la gesta emancipadora argentina. A través de casonas coloniales, campos de batalla y caminos cordilleranos, esta ruta rinde tributo a los héroes e hitos que trazaron el nacimiento de la nación y configuraron la libertad de todo un continente."
+    },
+    {
+        "Categoría": "Monumentos y Lugares Históricos",
+        "Etiqueta": "Monumentos",
+        "Descripción": "Recorrido por los principales monumentos y sitios históricos del país.",
+        "Provincias": "Buenos Aires, Córdoba, Salta, etc",
+        "Slug": "monumentos",
+        "DescripciónLarga": "Un recorrido por los testimonios materiales y los hitos arquitectónicos que custodian la memoria colectiva del país. Desde reliquias precolombinas e hitos coloniales hasta edificios icónicos del siglo XIX, este itinerario invita a contemplar las huellas del pasado y a comprender los acontecimientos que le dieron forma a nuestra herencia cultural."
+    }
+]

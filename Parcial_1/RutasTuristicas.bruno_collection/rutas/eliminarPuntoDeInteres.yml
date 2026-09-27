@@ -1,0 +1,15 @@
+info:
+  name: eliminarPuntoDeInteres
+  type: http
+  seq: 1
+
+http:
+  method: DELETE
+  url: http://localhost:3333/api/rutas/6aaedf53bdff6ca9772b27b9
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

@@ -1,0 +1,16 @@
+[
+    {
+        "nombre": "Juan",
+        "apellido": "Pérez",
+        "email": "juan.perez@example.com",
+        "foto": "https://picsum.photos/seed/juan-perez/200/200",
+        "descripcion": "Cliente frecuente"
+    },
+    {
+        "nombre": "Ana",
+        "apellido": "Gómez",
+        "email": "ana.gomez@example.com",
+        "foto": "https://picsum.photos/seed/ana-gomez/200/200",
+        "descripcion": "Cliente frecuente"
+    }
+]

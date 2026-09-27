@@ -1,0 +1,27 @@
+info:
+  name: crearPaquete
+  type: http
+  seq: 1
+
+http:
+  method: POST
+  url: http://localhost:3333/api/clientes/6ab7e44f5bbc03e91a3be284/paquetes
+  body:
+    type: json
+    data: |
+      {
+        "titulo": "Escapada Mística: Ruinas y Yerba Mate",
+        "precio": 45000,
+        "duracionDias": 5,
+        "rutas": [
+          "yerba-mate",
+          "jesuitas"
+        ]
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

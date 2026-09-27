@@ -1,0 +1,39 @@
+info:
+  name: editarPuntoDeInteres
+  type: http
+  seq: 1
+
+http:
+  method: PUT
+  url: http://localhost:3333/api/rutas/6aaedf53bdff6ca9772b27b9
+  body:
+    type: json
+    data: |2-
+       {
+          "Provincia": "Jujuy",
+          "Localidad": "San Salvador de Jujuy",
+          "Nombre": "Éxodo Jujeño",
+          "Latitud": "-24.1857800",
+          "Longitud": "-65.2994800",
+          "Fuente": "Instituto Nacional Belgraniano - wikipedia - El Historiador",
+          "Descripción": "Recorrido: Ciudad de Buenos Aires - Los Surgentes - Yavi - Rosario - Posta de Yatasto - Campo Santo - San Salvador de Jujuy - Las Piedras - San Miguel de Tucumán - Juramento - Salta - El Tejar - Puesto del Marques. Luego de avanzar a San Salvador de Jujuy, el 25 de mayo de 1812, Belgrano celebro el segundo aniversario de la Revolución de Mayo con un Te Deum en la Catedral, durante el cual el canónigo Juan Ignacio Gorriti bendijo la bandera celeste y blanca. El Triunvirato, por segunda vez, amonesto a Belgrano por exhibir el estandarte patriota, quien contesto diciendo: La guardare silenciosamente para enarbolarla cuando se produzca un gran triunfo de nuestras armas. En julio de 1812, se produjo una gran avanzada realista desde el Alto Perú, que amenazaba destruir totalmente lo poco que se había ganado a fuerza de sacrificio y coraje. Belgrano solicito refuerzos al gobierno central pero este estaba abocado principalmente a vencer a los realistas fortificados en Montevideo. En lugar de enviar refuerzos para atender el Frente Norte, se le ordeno el repliegue hasta la ciudad de Córdoba. Belgrano dicto un bando que disponía la retirada: no debería quedar nada que fuese de provecho para el adversario, ni casa ni objetos que fueran de utilidad, ni alimentos. El rigor de la medida debió respaldarse con la amenaza de fusilar a quienes no cumplieran la orden. El 23 de agosto de 1812 todo el pueblo de Jujuy emprendió junto al ejercito el llamado éxodo jujeño quemando todo lo que quedase detrás para entorpecer el avance enemigo.",
+          "Categoría": "Ruta de la Independencia",
+          "Monumentos": null,
+          "Museos": null,
+          "Festivales": null,
+          "Artesanías típicas": null,
+          "Ferias": null,
+          "Comidas típicas": null,
+          "Sitios de interés": null,
+          "Fiestas": null,
+          "Actividad específica": "Expediciones Auxiliadoras Al Alto Perú",
+          "Link": "https://www.google.com/maps?q=-24.1857800,-65.2994800",
+          "Imagen": "https://picsum.photos/seed/exodo-jujeno-1527/800/600"
+        }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
