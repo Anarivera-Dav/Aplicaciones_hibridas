@@ -1,10 +1,11 @@
 info:
   name: eliminarClientes
   type: http
+  seq: 1
 
 http:
-  method: GET
-  url: ""
+  method: DELETE
+  url: http://localhost:3333/api/clientes/6ab944bb9ed82fc7e42b44c7
   auth: inherit
 
 settings:
