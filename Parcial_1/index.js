@@ -13,7 +13,7 @@ const port = 3333;
 
 // Si la URL termina en "/" (y no es la home), redirige a la misma URL sin esa barra
 app.use((req, res, next) => {
-  if (req.path.endsWith('/')) {
+  if (req.path.endsWith('/') && req.path.length > 1) {
     res.redirect(301, req.path.slice(0, -1));
   } else {
     next();
